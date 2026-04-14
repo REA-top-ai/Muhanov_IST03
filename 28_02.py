@@ -14,7 +14,7 @@ logs = [
 def parsing(stroka):
     parts = stroka.split("|")
     date = parts[0]
-    level = parts[1]
+    level = parts[1] #проверить длину списка на предмет ошибки out of range
     message = parts[2]
 
     result = {
